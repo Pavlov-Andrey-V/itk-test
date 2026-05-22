@@ -2,9 +2,7 @@ package ru.apavlov.walletapp.repository;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
-import ru.apavlov.walletapp.controller.dto.WalletBalanceDTO;
 import ru.apavlov.walletapp.service.entity.WalletBalance;
-
 
 import java.util.List;
 import java.util.UUID;

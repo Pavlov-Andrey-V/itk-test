@@ -1,13 +1,11 @@
 package ru.apavlov.walletapp.service;
 
 import org.springframework.stereotype.Service;
-import ru.apavlov.walletapp.controller.dto.WalletBalanceDTO;
-import ru.apavlov.walletapp.service.entity.OperationTypeEnum;
+import ru.apavlov.walletapp.repository.WalletRepository;
 import ru.apavlov.walletapp.service.entity.WalletBalance;
 import ru.apavlov.walletapp.service.entity.WalletOperation;
 import ru.apavlov.walletapp.service.exception.NotEnoughBalanceException;
 import ru.apavlov.walletapp.service.exception.WalletNotFoundException;
-import ru.apavlov.walletapp.repository.WalletRepository;
 
 import java.util.UUID;
 
